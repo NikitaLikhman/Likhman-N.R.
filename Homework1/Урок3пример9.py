@@ -1,0 +1,8 @@
+n = int(input("Введите n: "))
+m = int(input("Введите m: "))
+k = int(input("Введите k: "))
+
+if 0 < k < n * m and (k % n == 0 or k % m == 0):
+    print("Да")
+else:
+    print("Нет")
